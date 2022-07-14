@@ -1,17 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <style>
-      body {
-        background-color: blue;
-        text-align: center;
-      }
-      h1{
-        color: white;
-    }
-      .lds-ring {
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Departamento De Mercados</title>
+	<style>
+		body{
+			font-family: sans-serif;
+			background-color: #0b067f;
+		}
+
+		.Contenedor{
+			background-color: #0b067f;
+			height: 50vh;
+			margin: 5%;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		h1{
+			color: white;
+		}
+		H2{
+			color: white;
+		}
+.lds-ring {
   display: inline-block;
   position: relative;
   width: 80px;
@@ -46,12 +62,11 @@
     transform: rotate(360deg);
   }
 }
-
-  </style>
+	</style>
 </head>
 <body>
-  <center>
-  <script>
+	<center>
+	<script>
     const AS_URL_BASE = "https://script.google.com/macros/s/AKfycbwDuHNPSSEl99whO0qzCo_aWMg3N7Y_Vp9POzrVAWeKnQ_KU1y-Cgx408IvCnMofz_D/exec";
     
     var url = document.location.href;
@@ -71,11 +86,16 @@
     }
 
   </script>
-  
   <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
-  <hr>
-<img src="https://muniescuintla.gob.gt/site/wp-content/uploads/2021/10/LogoMuniEscuintla_white.png" width="250">
-    <h1>DEPARTAMENTO DE MERCADOS</h1>
   </center>
+	
+	<div class="Contenedor">
+		
+		<img src="https://muniescuintla.gob.gt/site/wp-content/uploads/2020/01/LogoMuniEscuintla_white_top2-1.png">
+		<h1>DEPARTAMENTO DE MERCADOS</h1>
+		<h2>MUNICIPALIDAD DE ESCUINTLA</h2>
+
+	</div>
+
 </body>
 </html>
